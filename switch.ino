@@ -24,14 +24,14 @@ void loop() {
   switch(data) {
     case '1':
       
-      digitalWrite(D1, LOW);
-      digitalWrite(D3, LOW);
-      digitalWrite(D5, LOW);
-      digitalWrite(D7, LOW);
-      digitalWrite(D2, HIGH);
-      digitalWrite(D4, HIGH);
-      digitalWrite(D6, HIGH);
-      digitalWrite(D8, HIGH);
+      digitalWrite(D2, LOW);
+  digitalWrite(D4, LOW);
+  digitalWrite(D6, LOW);
+  digitalWrite(D8, LOW);
+  digitalWrite(D1, HIGH);
+  digitalWrite(D3, HIGH);
+  digitalWrite(D5, HIGH);
+  digitalWrite(D7, HIGH);
       break;
     case '0': 
       
