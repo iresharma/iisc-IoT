@@ -25,7 +25,7 @@ void loop() {
 
   brightness = brightness + fadeAmount;
 
-  if (brightness <= 0 || brightness >= 255) {
+  if (brightness <= 0 || brightness >= HIGH) {
     fadeAmount = -fadeAmount;
   }\
   delay(30);
